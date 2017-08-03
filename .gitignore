@@ -1,0 +1,10 @@
+
+.idea
+/vendor
+**/*.iml
+output
+.DS_Store
+.byebug_history
+config/credentials.yml
+\.*\.swp
+node_modules

@@ -1,0 +1,9 @@
+default: &default
+    paths:
+        for sale homepage: /for-sale/
+
+prod:
+    <<: *default
+    zoopla:
+        base_url: www.zoopla.co.uk
+        mobile_url: m.zoopla.co.uk

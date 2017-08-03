@@ -1,0 +1,9 @@
+---
+uuid: uuiduuiduuiduuiduuiduuiduuiduuiduuiduuid
+endpoint: http://rp_host_url/api/v1
+project: projectnname
+launch: projectnname
+tags:
+- regression
+- to_merge
+- "2017-08-03"

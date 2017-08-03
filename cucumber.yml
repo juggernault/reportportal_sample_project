@@ -1,0 +1,12 @@
+ # config/cucumber.yml
+##YAML Template
+html_report: --format progress --format html --out=./output/html_reports/features_report.html
+zpgfooter: --tags @zooplafooterlinks
+debug: --tags @debug
+
+parallel: --format html --out report ./output/<%= ENV['TEST_ENV_NUMBER']%>.html --format ParallelTests::Cucumber::FailuresLogger --out cucumber_failures.log
+<% if ENV['JENKINS_SERVER_COOKIE'] %>
+default: --profile jenkins
+<% end %>
+
+jenkins: --format junit --OUT ./

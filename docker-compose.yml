@@ -1,0 +1,8 @@
+autotest:
+  build: .
+  environment:
+      environment: qa
+  volumes:
+      - .:/code
+  user: $USER_ID
+  shm_size: 2000M

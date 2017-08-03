@@ -1,0 +1,8 @@
+Dockerfile
+docker-compose.yml
+output
+.dockerignore
+.DS_Store
+.gitignore
+Jenkinsfile
+jenkins
